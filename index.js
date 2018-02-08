@@ -1,4 +1,4 @@
-var bitcore = require('smartcore-lib');
-bitcore.P2P = require('./lib');
+var smartcore = require('smartcore-lib');
+smartcore.P2P = require('./lib');
 
-module.exports = bitcore.P2P;
+module.exports = smartcore.P2P;

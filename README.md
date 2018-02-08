@@ -1,25 +1,25 @@
-<img src="http://bitcore.io/css/images/bitcore-p2p.svg" alt="bitcore payment protocol" height="35" width="102">
+<img src="http://smartcore.io/css/images/smartcore-p2p.svg" alt="smartcore payment protocol" height="35" width="102">
 
-Bitcore P2P
+Smartcore P2P
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-p2p)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-p2p)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-p2p.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-p2p?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/smartcore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/smartcore-p2p)
+[![Build Status](https://img.shields.io/travis/msg768/smartcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/msg768/smartcore-p2p)
+[![Coverage Status](https://img.shields.io/coveralls/msg768/smartcore-p2p.svg?style=flat-square)](https://coveralls.io/r/msg768/smartcore-p2p?branch=master)
 
-`bitcore-p2p` adds [Bitcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Bitcore.
+`smartcore-p2p` adds [SmartCash protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Bitcore.
 
-See [the main bitcore repo](https://github.com/bitpay/bitcore) for more information.
+See [the main smartcore repo](https://github.com/msg768/smartcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-p2p
+npm install smartcore-p2p
 ```
-In order to connect to the Bitcoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
+In order to connect to the SmartCash network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('bitcore-p2p').Peer;
+var Peer = require('smartcore-p2p').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 
@@ -45,14 +45,14 @@ peer.on('tx', function(message) {
 });
 ```
 
-Take a look at the [bitcore guide](http://bitcore.io/guide/peer.html) on the usage of the `Peer` class.
+Take a look at the [smartcore guide](http://smartcore.io/guide/peer.html) on the usage of the `Peer` class.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING.md) on the main bitcore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/msg768/smartcore/blob/master/CONTRIBUTING.md) on the main smartcore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/msg768/smartcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.

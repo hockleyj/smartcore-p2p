@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var bitcore = require('smartcore-lib');
+var smartcore = require('smartcore-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = bitcore.util.buffer;
-var BufferWriter = bitcore.encoding.BufferWriter;
-var BufferReader = bitcore.encoding.BufferReader;
+var BufferUtils = smartcore.util.buffer;
+var BufferWriter = smartcore.encoding.BufferWriter;
+var BufferReader = smartcore.encoding.BufferReader;
 
 describe('Inventory', function() {
 
