@@ -7,7 +7,7 @@ Smartcore P2P
 [![Build Status](https://img.shields.io/travis/msg768/smartcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/msg768/smartcore-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/msg768/smartcore-p2p.svg?style=flat-square)](https://coveralls.io/r/msg768/smartcore-p2p?branch=master)
 
-`smartcore-p2p` adds [SmartCash protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Bitcore.
+`smartcore-p2p` adds [SmartCash protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Smartcore.
 
 See [the main smartcore repo](https://github.com/msg768/smartcore) for more information.
 
@@ -55,4 +55,4 @@ See [CONTRIBUTING.md](https://github.com/msg768/smartcore/blob/master/CONTRIBUTI
 
 Code released under [the MIT license](https://github.com/msg768/smartcore/blob/master/LICENSE).
 
-Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
+Copyright 2013-2015 BitPay, Inc. Smartcore is a fork of Bitcore which is a trademark maintained by BitPay, Inc.
